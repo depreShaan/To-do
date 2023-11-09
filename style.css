@@ -7,16 +7,18 @@
 }
 
 .container{
+    padding-top: 20px;
     width: 100%;
     min-height: 100vh;
     background: linear-gradient(25deg, teal, bisque);
-    padding: 100px;
+    
 
 }
 
 .todo{
-    width:100%;
-    max-width: 700px;
+   
+    width:70%;
+    max-width:100%;
     background: teal;
     margin: 100px auto 20px;
     padding:40px 30px 70px;
@@ -43,7 +45,7 @@
     justify-content: space-between;
     background:beige;
     border-radius: 30px;
-    padding-left: 20px;
+    
     margin-bottom: 20px;
 
 }
@@ -62,7 +64,9 @@ input{
 button{
     border: None;
     outline: None;
-    padding:16px 50px;
+    padding:16px 20px;
+    
+    
     background: rgb(255, 212, 159);
     color: rgb(0, 102, 102);
     font-size: 20px;
